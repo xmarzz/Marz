@@ -1,0 +1,168 @@
+.about{
+    padding: 200px 15% 200px 15%;
+    display: flex;
+    flex-direction: row;
+    max-width: 112em;
+    font-family: var(--font-title);
+}
+
+.about-outside{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+}
+
+.about_inside{
+    padding: 12px 0px;
+    color: var(--lightest-slate);
+    font-size: 46px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-line hr{
+    border: none;
+    height: 1px;
+    background-color: #475da3;
+    margin: 15px 3px;
+}
+
+.about_details{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.about_tech{
+    font-size: 18px;
+    padding-top: 24px;;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about_lists{
+    margin: 25px 6px;
+    font-size: 16px;
+}
+
+.about_skills-names{
+    margin: 3px 0 0px 2px;
+    color: var(--slate);
+}
+
+.about_actualMe{
+    margin: 16px 0 0 0;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.about_skills{
+    display: flex;
+    flex-direction: row;
+}
+
+.about_details, .about_tech, .about_actualMe, about_lists{
+    color: var(--slate);
+}
+
+.about_arrow{
+    color: var(--green-bright);
+    margin: 3px 2px 0 0;
+}
+
+.about-photo{
+    margin: 84px 0 0 45px;
+    transition: transform   0.3s ease;
+}
+.about-photo:hover{
+    transform: scaley(1.05);
+}
+
+@keyframes slideInFromLeft {
+    0% {
+     transform: translateX(-10px);
+     opacity:  0;
+   }
+    100% {
+     transform: translateX(0);
+     opacity:  1;
+   }
+ }
+
+.about-photo img{
+    border-radius: 12px;
+}
+
+
+@media (max-width: 768px){
+    .about{
+        padding: 450px 4%;
+        display: flex;
+        flex-direction: column;
+        max-width: 112em;
+        font-family: var(--font-title);
+    }
+
+    .about-outside{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_inside{
+        padding: 12px 0px;
+        color: var(--lightest-slate);
+        font-size: 32px;
+        font-weight: 700;   
+        display: flex;
+        flex-direction: column;
+    }               
+
+    .about_details{
+        font-size: 14px;
+        max-width: 969px;
+        line-height: 1.5;
+    }
+
+    .about_tech{
+        font-size: 14px;
+        padding-top: 24px;;
+    }
+
+    .about_skills-names{
+        font-size: 14px;
+    }
+
+    .about_actualMe{
+        font-size: 14px;
+    }
+
+    .about-photo{
+        margin: 12px 122px 2 4;
+        align-items: center;
+        justify-content: center;
+        size: 350px;
+        display: none;
+    }
+
+    .about-photo img{
+        border-radius: 12px;
+    }
+}
+
+@media screen and (min-width:  768px) and (max-width:  1024px){
+    .about-photo{
+        display: none;
+    }
+
+    .about_outside{
+        max-width: 330px;
+    }
+     
+     .about_tech, .about_actualMe{
+        font-size: 16px;
+    }
+    
+}

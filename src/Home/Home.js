@@ -13,7 +13,7 @@ const Home = () => {
 
       <div className="home_page">
         <div className="home_intro">
-          hi, <div className="home_intro-name"> jaffer </div> here.
+          hi, <div className="home_intro-name"> Marz </div> here.
           <div className="home_intro-blinking"></div>
         </div>
 

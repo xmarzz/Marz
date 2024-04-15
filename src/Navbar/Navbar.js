@@ -24,15 +24,6 @@ const Navbar = () => {
       <nav className="navbar-outside navbar">
         <div className="navbar_logo">
           <div className="navbar_logo-text">
-            <FaLinkedin
-              size={22}
-              className="linkedin_icon"
-              onClick={() =>
-                window.open(
-                  "https://www.linkedin.com/in/jaffer-sathick-6727a31ab/"
-                )
-              }
-            />
             <FaGithub
               size={22}
               className="github_icon"

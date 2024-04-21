@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
 import GMTClock from "../Components/GMTClock/GMTClock";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { RxHamburgerMenu } from "react-icons/rx";
 
@@ -41,6 +41,11 @@ const Navbar = () => {
                 window.open("https://mailto:sathickjaffer44@gmail.com")
               }
             />
+            <FaDiscord 
+            size={22}
+            className="discord_icon"
+            onClick={()=>window.open("https://discord.com/users/854039256904368187")}/>
+
           </div>
           <div className="navbar_clock">
             <GMTClock />

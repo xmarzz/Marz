@@ -45,7 +45,6 @@ const Navbar = () => {
             size={22}
             className="discord_icon"
             onClick={()=>window.open("https://discord.com/users/854039256904368187")}/>
-
           </div>
           <div className="navbar_clock">
             <GMTClock />

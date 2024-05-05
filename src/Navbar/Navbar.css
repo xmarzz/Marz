@@ -23,6 +23,7 @@
     color: var(--lightest-slate);
     margin: 12px 4px 4px 12px; 
 }
+
 .github_icon:hover, .linkedin_icon:hover , .twitter_icon:hover, .email_icon :hover, .discord_icon:hover{ 
     cursor: pointer;
     color: var(--green-bright);
@@ -181,7 +182,7 @@
     .navbar_logo-text{
         margin: 0 0 0 0;
     }
-    .github_icon, .linkedin_icon , .twitter_icon, .email_icon{
+    .github_icon, .linkedin_icon , .twitter_icon, .email_icon, .discord_icon{
         margin: 0px 2px 2px 2px; 
     }
 
